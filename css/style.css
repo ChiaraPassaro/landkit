@@ -1,0 +1,32 @@
+body {
+  min-width: 340px;
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.land-logo {
+  height: 1.1rem;
+}
+
+.land-jumbo-img {
+  height: 378px;
+}
+
+.land-btn-arrow i {
+  font-size: 0.7rem;
+}
+
+.mt-10 {
+  margin-top: 6rem;
+}
+
+@media screen and (max-width: 992px) {
+  .land-jumbo-img {
+    height: 258px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .land-jumbo-img {
+    height: 308px;
+  }
+}
