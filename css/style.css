@@ -1,6 +1,6 @@
 body {
   min-width: 340px;
-  font-family: 'Hanken Grotesk', sans-serif;
+  font-family: "Hanken Grotesk", sans-serif;
 }
 
 .land-logo {
@@ -29,4 +29,8 @@ body {
   .land-jumbo-img {
     height: 308px;
   }
+}
+
+.example input {
+  width: 70%;
 }

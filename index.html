@@ -1,52 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <link rel="stylesheet" href="./css/style.css">
-  <title>Document</title>
-</head>
-
-<body>
-  <!-- Header -->
-  <div class="header container">
-    <div class="row mb-4 mt-4">
-      <div class="col-3 col-lg-2 d-flex align-items-center">
-        <img class="land-logo" src="./img/brand.svg" alt="Landkit">
-      </div>
-      <div class="col-lg-8 align-items-center justify-content-center d-none d-lg-flex">
-        <!-- <ul class="list-inline text-center">
+  <body>
+    <!-- Header -->
+    <div class="header container">
+      <div class="row mb-4 mt-4">
+        <div class="col-3 col-lg-2 d-flex align-items-center">
+          <img class="land-logo" src="./img/brand.svg" alt="Landkit" />
+        </div>
+        <div
+          class="col-lg-8 align-items-center justify-content-center d-none d-lg-flex"
+        >
+          <!-- <ul class="list-inline text-center">
           <li class="list-inline-item">Landings</li>
           <li class="list-inline-item">Pages</li>
           <li class="list-inline-item">Account</li>
           <li class="list-inline-item">Documentation</li>
         </ul> -->
-        <ul class="list-unstyled d-flex justify-content-center align-items-center m-0">
-          <li class="me-2 ms-2">Landings</li>
-          <li class="me-2 ms-2">Pages</li>
-          <li class="me-2 ms-2">Account</li>
-          <li class="me-2 ms-2">Documentation</li>
-        </ul>
-      </div>
-      <div class="col-9 col-lg-2 text-end">
-        <button class="btn btn-primary d-none d-lg-inline-block">Primary</button>
-        <button class="btn d-inline-block d-lg-none fs-2"><i class="fa-solid fa-bars"></i></button>
+          <ul
+            class="list-unstyled d-flex justify-content-center align-items-center m-0"
+          >
+            <li class="me-2 ms-2">Landings</li>
+            <li class="me-2 ms-2">Pages</li>
+            <li class="me-2 ms-2">Account</li>
+            <li class="me-2 ms-2">Documentation</li>
+          </ul>
+        </div>
+        <div class="col-9 col-lg-2 text-end">
+          <button class="btn btn-primary d-none d-lg-inline-block">
+            Primary
+          </button>
+          <button class="btn d-inline-block d-lg-none fs-2">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
       </div>
     </div>
-  </div>
-  <!-- /Header -->
+    <!-- /Header -->
 
-  <!-- Jumbo -->
-  <!-- <div class="container-fluid">
+    <!-- Jumbo -->
+    <!-- <div class="container-fluid">
     <div class="row">
       <div class="offset-1 col-5">
         Welcome to Landkit.
@@ -59,27 +77,109 @@
     </div>
   </div> -->
 
-  <div class="container mt-10">
-    <div class="row text-center text-md-start">
-      <div class="col-12 col-md-6 order-md-first order-last d-flex flex-column justify-content-center">
-        <h1>Welcome to <span class="text-primary">Landkit.</span></h1>
-        <h2>Develop anything.</h2>
-        <p class="text-body-tertiary"> Build a beautiful, modern website with flexible Bootstrap components built from
-          scratch.</p>
-        <div class="actions">
-          <button class="btn btn-primary py-2 px-3 land-btn-arrow"><span class="align-middle">View all pages</span> <i
-              class="fa-solid fa-arrow-right"></i></button>
-          <button class="btn btn-light py-2 px-3 text-primary"><span class="align-middle">Documentation</span>
-          </button>
+    <div class="container mt-10">
+      <div class="row text-center text-md-start">
+        <div
+          class="col-12 col-md-6 order-md-first order-last d-flex flex-column justify-content-center"
+        >
+          <h1>Welcome to <span class="text-primary">Landkit.</span></h1>
+          <h2>Develop anything.</h2>
+          <p class="text-body-tertiary">
+            Build a beautiful, modern website with flexible Bootstrap components
+            built from scratch.
+          </p>
+          <div class="actions">
+            <button class="btn btn-primary py-2 px-3 land-btn-arrow">
+              <span class="align-middle">View all pages</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+            <button class="btn btn-light py-2 px-3 text-primary">
+              <span class="align-middle">Documentation</span>
+            </button>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 mb-4 mb-md-0 order-first order-md-last">
+          <img class="land-jumbo-img" src="./img/illustration-2.png" alt="" />
         </div>
       </div>
-      <div class="col-12 col-md-6 mb-4 mb-md-0 order-first order-md-last">
-        <img class="land-jumbo-img" src="./img/illustration-2.png" alt="">
+    </div>
+    <!-- /Jumbo -->
+
+    <!-- Example -->
+    <div class="container example">
+      <div class="row">
+        <div class="col-4">
+          <div class="card" style="width: 18rem">
+            <img src="/img/photo-2 (1).jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <form action="">
+                <div
+                  class="mb-3 d-flex align-items-center justify-content-between"
+                >
+                  <label for="exampleFormControlInput1" class="form-label me-2"
+                    >Name</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="name"
+                    placeholder="Insert your name"
+                  />
+                </div>
+                <div
+                  class="mb-3 d-flex align-items-center justify-content-between"
+                >
+                  <label for="exampleFormControlInput1" class="form-label me-2"
+                    >Email</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    name="email"
+                    placeholder="name@example.com"
+                  />
+                </div>
+                <div
+                  class="mb-3 d-flex align-items-center justify-content-between"
+                >
+                  <label for="exampleFormControlInput1" class="form-label me-2"
+                    >Password</label
+                  >
+                  <input
+                    type="password"
+                    class="form-control"
+                    name="password"
+                    placeholder="name@example.com"
+                  />
+                </div>
+                <div class="text-center">
+                  <button class="btn btn-primary">Download Example</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <h2>
+            The most useful resource <br />
+            <span class="text-success"> ever created for founders. </span>
+          </h2>
+          <p>
+            Using Landkit to build your site means never worrying about
+            designing another page or cross browser compatibility. Our
+            ever-growing library of components and pre-designed layouts will
+            make your life easier.
+          </p>
+
+          <ul class="row text-success">
+            <li class="col-6">Lifetime updates</li>
+            <li class="col-6">Tons of assets</li>
+            <li class="col-6">Tech support</li>
+            <li class="col-6">Integration ready</li>
+          </ul>
+        </div>
       </div>
     </div>
-  </div>
-
-  <!-- /Jumbo -->
-</body>
-
+    <!-- /Example -->
+  </body>
 </html>
